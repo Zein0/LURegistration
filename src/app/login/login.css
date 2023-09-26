@@ -1,0 +1,34 @@
+.login-container {
+  display: flex;
+}
+
+.login-image-container {
+  flex: 1;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.login-image {
+  width: 100%;
+  height: inherit;
+  object-fit: cover;
+}
+
+.login-form-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 2rem;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.login-button {
+  background-color: black;
+}

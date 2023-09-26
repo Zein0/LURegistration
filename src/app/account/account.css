@@ -1,0 +1,30 @@
+.account-container {
+  position: relative;
+  display: flex;
+}
+
+.account-container-empty {
+  height: 100vh;
+}
+
+.account-table-courses-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem 4rem;
+  width: 80%;
+  margin: 8rem auto 5rem;
+}
+
+.account-loading-container {
+  align-self: center;
+  margin: auto;
+}
+
+.account-btn-container {
+  width: 80%;
+  margin: 0 auto 2rem;
+}
+
+.account-btn {
+  background-color: black;
+}

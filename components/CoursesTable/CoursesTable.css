@@ -1,0 +1,59 @@
+.courses-table-wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 45%;
+}
+
+.courses-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.courses-table-title {
+  text-decoration: underline;
+}
+
+.courses-table-header-row {
+  border-bottom: 1px solid #cdcbcb;
+}
+
+.courses-table-header {
+  font-weight: bold;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.courses-table-disabled-data {
+  color: #888383;
+}
+
+.courses-table-data {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.table-scroll {
+  max-height: 300px;
+  overflow: scroll;
+}
+
+.table-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge add Firefox */
+.table-scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none; /* Firefox */
+}
+
+.courses-table-disabled-row {
+  background-color: #f8f1f1;
+}
+
+@media screen and (max-width: 785px) {
+  .courses-table-wrapper {
+    width: 100%;
+  }
+}
